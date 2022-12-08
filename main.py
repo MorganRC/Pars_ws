@@ -32,4 +32,8 @@ def rc_pars():
             print(f'{comp["title"]} -> Price: {comp["ad-price"]} -> Link: {comp["link"]}')
             file_save()
 
-rc_pars()
+def main():
+    rc_pars()
+
+if __name__ == "__main__":
+    main()
